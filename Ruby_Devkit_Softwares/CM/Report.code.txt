@@ -1,0 +1,33 @@
+Local
+
+cucumber -t @p2 run=local env=prod browser=chrome -f html -o C:\Users\108609\Documents\vasanth_automation\CM\V7\features\output\vas222.html
+cucumber -t @p2 run=local env=stage browser=chrome -f html -o C:\Users\108609\Documents\vasanth_automation\CM\V7\features\output\vas1.html
+cucumber -t @p2 run=local env=test browser=chrome -f html -o C:\Users\108609\Documents\vasanth_automation\CM\V7\features\output\vas12.html
+
+Server
+
+cucumber -t @Movetosameroom run=local env=prod browser=chrome -f html -o D:\Ruby_Devkit_Softwares\CM\V7\features\output\Movetosameroom.html
+
+VM
+
+cucumber -t @p2 run=local env=test browser=chrome -f html -o C:\V7\CM\V7\features\output\vas222.html
+cucumber -t @p2 run=local env=test browser=chrome -f html -o D:\Ruby_Devkit_Softwares\CM\V7\features\output\vas.html
+
+===================
+
+C:\Users\108609\Documents\vasanth_automation\CM
+
+===============
+
+Parallel execution
+
+bundle exec parallel_cucumber features -o '-t @p2 run=local browser=chrome'
+bundle exec parallel_cucumber features -o '-t @p2 run=sauce browser=chrome'
+
+
+bundle exec parallel_cucumber features -n 10 -o '-t @p2 run=local browser=chrome -f html -o C:\Users\108609\Documents\vasanth_automation\CM\V7\features\output\vas222.html'
+
+=================
+
+D:\Ruby_Devkit_Softwares\Zebronics.docx
+

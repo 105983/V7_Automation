@@ -1,0 +1,62 @@
+#############################################################################
+#  File:object-repository.yaml                                            #
+#  Author:                                                               #
+#  Date:                                                                  #
+#  Info:This file containst the object repository for all the feature ,   #
+#         any change in element locator will need to change only this file  #
+#############################################################################
+
+############### Object repository related to documents feature ###############
+documents_obj:
+  logoutallENV: "(//em[@class='x-btn-arrow x-unselectable'])[1]"
+  logoutv7 : "//span[contains(text(),'Logout')]"
+  dashboard7 : "//button[contains(text(),'V7 Smoke Test Automation')]"
+  dashboard : "//button[contains(text(),'bala demo proj dated on 23.02.2016')]"
+  dashboardpv7 : "//button[contains(text(),'Ds_Demo_V7_Automation')]"
+  logout : "//a[contains(text(), 'Logout')]"
+
+
+
+############### Project navigation ###############
+
+commonSpan:
+   comSP : "//span[contains(text(),('TEXT'))]"
+   froomName : "//img[@class='x-menu-item-icon fileRoom-icon']/.."
+   selFr  : "//div[contains(text(),('TEXT'))]"
+   dateudf: "//input[@class='x-form-text x-form-field x-form-invalid']"
+   manageUDF: "//div[@id='manageUdfWindow']"
+   desc : "//textarea[@class='x-form-textarea x-form-field x-column row-editor-textarea']"
+   chkall : "//div[@class='x-grid3-hd-checker']"
+   searchbox : "(//input[@type='text'])[2]/../img"
+   SeaRes : "(//a[@class='x-tab-strip-close'])[9]"
+   CopyEx : "(//img[@class='x-tree-ec-icon x-tree-elbow-end-plus'] )[2]"
+   Asecurity : "(//label[@class='x-form-cb-label'])[2]"
+   Chideen : "(//label[@class='x-form-cb-label'])[1]"
+   Sfolder : "(//span[contains(text(),('1 Folder1'))])[2]"
+   Tfolder : "(//span[contains(text(),('2 Folder1'))])[1]"
+   froom : "(//span[contains(text(),(' C_doc1'))])[2]"
+   froom1 : "(//span[contains(text(),('CreateFileroom'))])[2]"
+   paudit : "//div[@class = 'x-grid3-cell-inner x-grid3-col-1 x-unselectable'][1]"
+   Tedit: "//input[@class='x-form-text x-form-field x-column row-editor-textfields']"
+   Secrol : "(//a[@class='x-tab-strip-close'])[10]"
+   Copyfol: "(//img[@class='x-tree-ec-icon x-tree-elbow-plus'])[1]"
+   Sfileroom : "(//span[contains(text(),(' Permanent'))])[2]"
+   selfol  : "//div[contains(text(),('TEXT'))]"
+   Ssfolder : "(//span[contains(text(),('3 Mfolder'))])[2]"
+   Dfol : "(//span[contains(text(),('1 Dfolder'))])"
+   Ddfol : "(//span[contains(text(),('1 Dfolder'))])[2]"
+   UDF : "(//div[@class='x-grid3-row-checker'])[5]"
+   xmark : "//img[@class='x-action-col-icon x-action-col-0  undefined']"
+   wclose : "(//div[@class='x-tool x-tool-close'])"
+
+
+
+ENV:
+   testENV : "//a[@id='launch_project_P17-002-7038']"
+   stageENV : "//a[@id='launch_project_P17-001-3532']"
+#   prodENV : "//a[@id='launch_project_P17-001-4898']"
+   prodENV : "//a[@id='launch_project_P17-001-5294']"
+
+progressIcon:
+   loadingIcon: "//body[@id='ext-gen3']"
+

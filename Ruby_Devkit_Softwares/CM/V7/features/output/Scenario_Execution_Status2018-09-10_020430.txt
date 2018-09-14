@@ -1,0 +1,32 @@
+174.68|Project creation|failed
+27.2|Successful Login|failed
+15.07|Basic search|failed
+15.06|Copy watermark|failed
+15.05|Delete watermark|failed
+15.02|Invite an existing user|failed
+14.07|Copy to different Fileroom|failed
+14.01|Create Folder|failed
+13.08|Advanced search|failed
+12.08|Move to same fileroom property history|failed
+12.06|Move different fileroom|failed
+12.06|copy to different fileroom property history|failed
+12.02|copy to same fileroom|failed
+12.02|Move to same fileroom|failed
+12.02|copy to same fileroom property history|failed
+12.01|Move different fileroom property history|failed
+11.07|Editsecurity_Assign|failed
+11.06|Editrow|failed
+11.02|Editsecurity_publish|failed
+10.91|User history Deactive users|failed
+10.25|User history Active users|failed
+10.19|Activate User|failed
+10.11|Create Placeholder|failed
+10.09|Create Date UDF|failed
+10.06|Create Watermark|failed
+10.06|Viewer_Doc|failed
+10.05|Upload documents to the fileroom|failed
+10.05|Create a Security role|failed
+10.05|Upload documents to the fileroom zip file|failed
+10.02|Delete_doc|failed
+10.02|Addfileroom|failed
+10.02|Deactivate user|failed

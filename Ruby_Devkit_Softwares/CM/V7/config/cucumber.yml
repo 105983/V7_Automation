@@ -1,0 +1,23 @@
+default: -f html -o C:\Ruby_Devkit_Softwares\CM\V7\features\output\Test_Result_<%=Time.now.strftime("%Y-%m-%d_%H%M%S")%>.html
+
+p1: -t @p1 -f html -o C:\Ruby_Devkit_Softwares\CM\V7\features\output\Test_Result_P1_<%=Time.now.strftime("%Y-%m-%d_%H%M%S")%>.html
+
+p2: -t @p2 -f html -o C:\Ruby_Devkit_Softwares\CM\V7\features\output\Test_Result_P2_<%=Time.now.strftime("%Y-%m-%d_%H%M%S")%>.html
+
+Reg: -t @reg -f html -o C:\Ruby_Devkit_Softwares\CM\V7\features\output\Stage_Regression_Result_<%=Time.now.strftime("%Y-%m-%d_%H%M%S")%>.html
+
+Psmoke: -t @ssmoke -f html -o C:\Ruby_Devkit_Softwares\CM\V7\features\output\Prod_Smoke_Result_<%=Time.now.strftime("%Y-%m-%d_%H%M%S")%>.html
+
+Ssmoke: -t @ssmoke -f json -o C:\Ruby_Devkit_Softwares\CM\V7\features\output\Stage_Smoke_Result_<%=Time.now.strftime("%Y-%m-%d_%H%M%S")%>.json
+
+smoke_vas: -t @ssmoke -f html -o C:\Ruby_Devkit_Softwares\CM\V7\features\output\Stage_Smoke_Result_<%=Time.now.strftime("%Y-%m-%d_%H%M%S")%>.html
+
+Tsmoke: -t @smoke -f html -o C:\Ruby_Devkit_Softwares\CM\V7\features\output\Test_Smoke_Result_<%=Time.now.strftime("%Y-%m-%d_%H%M%S")%>.html
+
+Cleanup: -t @clean -f html -o C:\Ruby_Devkit_Softwares\CM\V7\features\output\Prod_Cleanup_Result_<%=Time.now.strftime("%Y-%m-%d_%H%M%S")%>.html
+
+Scleanup: -t @clean -f html -o C:\Ruby_Devkit_Softwares\CM\V7\features\output\Stage_Cleanup_Result_<%=Time.now.strftime("%Y-%m-%d_%H%M%S")%>.html
+
+Test1: -t @test -f html -o C:\Ruby_Devkit_Softwares\CM\V7\features\output\Test_Result_<%=Time.now.strftime("%Y-%m-%d_%H%M%S")%>.html
+
+Test: -t @test -f json -o C:\Ruby_Devkit_Softwares\CM\V7\features\output\Test_Result_<%=Time.now.strftime("%Y-%m-%d_%H%M%S")%>.json

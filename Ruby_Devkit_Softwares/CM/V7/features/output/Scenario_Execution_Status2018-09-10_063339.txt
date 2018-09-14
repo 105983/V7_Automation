@@ -1,0 +1,32 @@
+174.27|Project creation|passed
+31.55|Invite an existing user|passed
+25.53|Successful Login|passed
+21.68|Addfileroom|passed
+21.68|Create Date UDF|passed
+14.33|Upload documents to the fileroom zip file|passed
+13.79|Create Folder|passed
+13.43|Editrow|passed
+10.5|Upload documents to the fileroom|passed
+8.37|Viewer_Doc|passed
+8.36|Create Placeholder|passed
+5.02|Copy watermark|failed
+5.02|Basic search|failed
+5.02|Delete watermark|failed
+4.03|Copy to different Fileroom|failed
+3.03|Advanced search|failed
+2.4|Move different fileroom property history|failed
+2.04|Move to same fileroom property history|failed
+2.04|copy to same fileroom|failed
+2.03|Move to same fileroom|failed
+2.03|Create a Security role|failed
+2.03|copy to different fileroom property history|failed
+2.03|Move different fileroom|failed
+2.03|copy to same fileroom property history|failed
+1.11|Editsecurity_Assign|failed
+1.03|Editsecurity_publish|failed
+0.03|Activate User|failed
+0.03|Create Watermark|failed
+0.02|Delete_doc|failed
+0.02|User history Deactive users|failed
+0.02|Deactivate user|failed
+0.02|User history Active users|failed
